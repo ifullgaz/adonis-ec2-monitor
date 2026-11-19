@@ -1,7 +1,7 @@
 {
   "name": "@ifullgaz/adonis-ec2-monitor",
   "description": "Adonis EC2 Monitor is a package that provides a simple way to monitor the container in ECS",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "engines": {
     "node": ">=24.0.0"
   },
