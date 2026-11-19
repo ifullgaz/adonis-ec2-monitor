@@ -1,0 +1,10 @@
+{{{
+  exports({ to: app.configPath('ec2_monitor.ts') })
+}}}
+import { defineConfig } from '@ifullgaz/adonis-ec2-monitor'
+
+export default defineConfig({
+  metadataUrl: 'http://169.254.169.254/latest',
+  pollInterval: 5000,
+  pollJitter: 1000,
+})
